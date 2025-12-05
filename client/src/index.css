@@ -1,0 +1,11 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Using standard CSS here ensures it works even if @apply has issues in your specific setup */
+  background-color: #111827; /* Matches bg-gray-900 */
+  color: #ffffff;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
